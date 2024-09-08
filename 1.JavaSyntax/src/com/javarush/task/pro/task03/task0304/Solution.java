@@ -17,11 +17,11 @@ public class Solution {
         isLow = bodyTemperature < 36;
         if (isHigh) {
             System.out.println("температура тела высокая");
-        } else if (isLow){
+        } else if (isLow) {
             System.out.println("температура тела низкая");
         } else {
             System.out.println("температура тела нормальная");
         }
-
-    }System.out.println(isHigh + " " + isLow);
+        System.out.println(isHigh + " " + isLow);
+    }
 }
