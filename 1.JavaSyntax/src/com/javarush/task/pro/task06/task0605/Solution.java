@@ -9,6 +9,7 @@ import java.util.Arrays;
 
 public class Solution {
 
+    String b;
     public static void main(String[] args) {
         int[] array = {11, 22, 33, 44, 55, 66, 77, 88, 99};
         printArray(array);
@@ -18,13 +19,17 @@ public class Solution {
 
     public static void reverseArray(int[] array) {
 
-        int tmp;
+        int tmp = 0;
+        String a;
         int[] arrayCopy = new int[array.length];
 
-        for (int j = 0; j < array.length; j++) {
-            tmp = array[j];
-            arrayCopy[j] = tmp;
+        if ((array.length % 2) == 0) {
+            for (int j = 0; j < array.length; j++) {
+                tmp = array[j];
+                arrayCopy[j] = tmp;
+            }
         }
+        arrayCopy = new int[tmp];
         for (int i = 0; i < array.length; i++) {
             array[i] = arrayCopy[(array.length - 1) - i];
         }
