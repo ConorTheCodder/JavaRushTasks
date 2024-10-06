@@ -16,4 +16,17 @@ public class City {
     public int getTemperature() {
         return temperature;
     }
+
+
+
+    int min(int a, int b)
+    {
+        return a < b ? a : b;
+    }
+
+    int min(int a, int b, int c)
+    {
+        int t = this.min(a, b);
+        return this.min(t, c);
+    }
 }
