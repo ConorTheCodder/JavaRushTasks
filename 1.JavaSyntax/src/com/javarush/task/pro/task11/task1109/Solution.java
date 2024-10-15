@@ -9,6 +9,9 @@ public class Solution {
         Outer.Nested nested= new Outer.Nested();
         Outer outer = new Outer();
         Outer.Inner inner = outer.new Inner();
+        int d = Outer.Nested.c;
+        int asf = nested.c;
+
 
     }
 }

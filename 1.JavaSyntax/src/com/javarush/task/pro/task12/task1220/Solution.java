@@ -1,6 +1,6 @@
 package com.javarush.task.pro.task12.task1220;
 
-import javax.swing.*;
+
 import java.util.ArrayList;
 
 /* 
@@ -8,6 +8,7 @@ import java.util.ArrayList;
 */
 
 public class Solution {
+
 
     public static void main(String[] args) {
         var elements = new ArrayList<>();
@@ -17,7 +18,10 @@ public class Solution {
         elements.add(new LinkageError());
 
         checkElementsType(elements);
+
     }
+
+
 
     public static void checkElementsType(ArrayList<Object> elements) {
         for (int i = 0; i < elements.size(); i++) {
