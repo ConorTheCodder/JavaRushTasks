@@ -1,4 +1,5 @@
 package com.javarush.task.pro.task11.task1108;
+import com.javarush.task.pro.task11.task1108.Solution.Calculator;
 
 /* 
 Утильный калькулятор
@@ -28,7 +29,7 @@ public class Solution {
     public static void main(String[] args) {
         int a = 45;
         int b = 15;
-        Solution.Calculator.add(a, b);
+        Calculator.add(a, b);
         Solution.Calculator.subtract(a, b);
         Solution.Calculator.multiply(a, b);
         Solution.Calculator.divide(a, b);
