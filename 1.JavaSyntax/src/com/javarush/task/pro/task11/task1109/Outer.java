@@ -17,7 +17,7 @@ public class Outer {
         Nested() {
             System.out.println("Создание объекта вложенного класса");
         }
-    HashMap<>
+
     }
 }
 
