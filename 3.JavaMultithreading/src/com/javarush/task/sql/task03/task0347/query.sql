@@ -1,5 +1,5 @@
 -- Write your code here:
-select film_directors.*, film.title
+select film_directors.*
 from film_directors
          right join (select films.title, films.director_id
                      from films
@@ -8,6 +8,12 @@ from film_directors
 where film_directors.country = 'USA'
 limit 5
 ;
+
+
+
+
+
+
 /*SELECT film_directors.*, film.title
 FROM film_directors
 RIGHT JOIN (

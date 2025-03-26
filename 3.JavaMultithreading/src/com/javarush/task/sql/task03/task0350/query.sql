@@ -17,5 +17,3 @@ GROUP BY films.title,
          films.year_released,
          films.grossed
 ;
-
--- в четвертом условии задания: там же нет этих колонок в tt и tt2

@@ -1,5 +1,5 @@
 -- Write your code here:
-select film_directors.last_name, film.grossed
+select film_directors.last_name
 from film_directors
          left join (select films.grossed, films.director_id
                     from films
